@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Şeyma Nur Taner</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .projects-section {
+      background: #fff;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.12);
+      margin-bottom: 40px;
+    }
+    .projects-section h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 25px;
+    }
+    table.projects-table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    }
+    .projects-table th {
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      color: #fff;
+      padding: 14px;
+      text-align: left;
+      font-size: 1.1rem;
+      letter-spacing: 0.3px;
+    }
+    .projects-table td {
+      background: #fff;
+      padding: 18px;
+      vertical-align: top;
+      font-size: 1rem;
+      color: var(--text);
+      border-top: 1px solid #eceff3;
+    }
+    .projects-table ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .projects-table li {
+      margin: 6px 0;
+    }
+    .projects-table tr:hover td {
+      background: #f7fbff;
+    }
+    @media (max-width: 768px) {
+      .projects-table, .projects-table tbody, .projects-table tr, .projects-table td, .projects-table th {
+        display: block;
+        width: 100%;
+      }
+      .projects-table th {
+        border-radius: 14px 14px 0 0;
+        text-align: center;
+      }
+      .projects-table td {
+        border-top: none;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Projects</h1>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="background.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="map.html">Map</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="projects-section">
+      <h2>Current and Planned Projects</h2>
+      <p style="text-align:center; color:var(--muted); margin-bottom:20px;">
+        Below are the projects I am currently working on and those planned for the near future.
+      </p>
+
+      <table class="projects-table">
+        <thead>
+          <tr>
+            <th>Ongoing Projects</th>
+            <th>Planned Projects</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li><strong>My Personal Web Page</strong><br> Developing a personal portfolio website with HTML, CSS, and OpenLayers integration.</li>
+                <li><strong>Learning Web Design</strong><br> Learning modern, responsive interface design and user-experience-focused layouts.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li><em>Not yet added</em></li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 Şeyma Nur Taner | Hacettepe University
+  </footer>
+</body>
+</html>
